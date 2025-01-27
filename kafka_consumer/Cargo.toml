@@ -1,0 +1,10 @@
+[package]
+name = "kafka_consumer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rdkafka = "0.37.0"
+serde_json = "1.0.137"
+tokio = { version = "1.43.0", features = ["full"] }
+tokio-macros = "2.5.0"
