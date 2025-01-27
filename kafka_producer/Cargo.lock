@@ -137,7 +137,6 @@ name = "kafka_producer"
 version = "0.1.0"
 dependencies = [
  "rdkafka",
- "serde_json",
  "tokio",
  "tokio-macros",
 ]
