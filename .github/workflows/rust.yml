@@ -20,5 +20,5 @@ jobs:
       run: |
         cd kafka_consumer
         cargo build --verbose
-        cd ..\kafka_producer
+        cd .. && cd kafka_producer
         cargo build --verbose
